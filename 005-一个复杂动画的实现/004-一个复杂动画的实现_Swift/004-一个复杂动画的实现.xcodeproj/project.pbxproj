@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C93EB3520185C370045226F /* Contents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C93EB3420185C370045226F /* Contents.swift */; };
+		8C93EB392018692D0045226F /* OnevcatDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C93EB382018692D0045226F /* OnevcatDelay.swift */; };
+		8C93EB3B20186D630045226F /* TriangleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C93EB3A20186D630045226F /* TriangleLayer.swift */; };
+		8C93EB3D201875A00045226F /* RectangleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C93EB3C201875A00045226F /* RectangleLayer.swift */; };
+		8C93EB3F20187C950045226F /* WaveLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C93EB3E20187C950045226F /* WaveLayer.swift */; };
+		8CB003642016DA69000DCFFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB003632016DA69000DCFFD /* AppDelegate.swift */; };
+		8CB003662016DA69000DCFFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB003652016DA69000DCFFD /* ViewController.swift */; };
+		8CB003692016DA69000DCFFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB003672016DA69000DCFFD /* Main.storyboard */; };
+		8CB0036B2016DA69000DCFFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0036A2016DA69000DCFFD /* Assets.xcassets */; };
+		8CB0036E2016DA69000DCFFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0036C2016DA69000DCFFD /* LaunchScreen.storyboard */; };
+		8CB003762016DBBB000DCFFD /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB003752016DBBB000DCFFD /* AnimationView.swift */; };
+		8CB003792016DCC2000DCFFD /* CircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB003782016DCC2000DCFFD /* CircleLayer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C93EB3420185C370045226F /* Contents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contents.swift; sourceTree = "<group>"; };
+		8C93EB382018692D0045226F /* OnevcatDelay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnevcatDelay.swift; sourceTree = "<group>"; };
+		8C93EB3A20186D630045226F /* TriangleLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleLayer.swift; sourceTree = "<group>"; };
+		8C93EB3C201875A00045226F /* RectangleLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleLayer.swift; sourceTree = "<group>"; };
+		8C93EB3E20187C950045226F /* WaveLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveLayer.swift; sourceTree = "<group>"; };
+		8CB003602016DA69000DCFFD /* 004-一个复杂动画的实现.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "004-一个复杂动画的实现.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB003632016DA69000DCFFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CB003652016DA69000DCFFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CB003682016DA69000DCFFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CB0036A2016DA69000DCFFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CB0036D2016DA69000DCFFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CB0036F2016DA69000DCFFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CB003752016DBBB000DCFFD /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		8CB003782016DCC2000DCFFD /* CircleLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLayer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CB0035D2016DA69000DCFFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CB003572016DA69000DCFFD = {
+			isa = PBXGroup;
+			children = (
+				8CB003622016DA69000DCFFD /* 004-一个复杂动画的实现 */,
+				8CB003612016DA69000DCFFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CB003612016DA69000DCFFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CB003602016DA69000DCFFD /* 004-一个复杂动画的实现.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CB003622016DA69000DCFFD /* 004-一个复杂动画的实现 */ = {
+			isa = PBXGroup;
+			children = (
+				8CB003772016DCA1000DCFFD /* Layers */,
+				8CB003752016DBBB000DCFFD /* AnimationView.swift */,
+				8CB003632016DA69000DCFFD /* AppDelegate.swift */,
+				8CB003652016DA69000DCFFD /* ViewController.swift */,
+				8C93EB3420185C370045226F /* Contents.swift */,
+				8C93EB382018692D0045226F /* OnevcatDelay.swift */,
+				8CB003672016DA69000DCFFD /* Main.storyboard */,
+				8CB0036A2016DA69000DCFFD /* Assets.xcassets */,
+				8CB0036C2016DA69000DCFFD /* LaunchScreen.storyboard */,
+				8CB0036F2016DA69000DCFFD /* Info.plist */,
+			);
+			path = "004-一个复杂动画的实现";
+			sourceTree = "<group>";
+		};
+		8CB003772016DCA1000DCFFD /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				8CB003782016DCC2000DCFFD /* CircleLayer.swift */,
+				8C93EB3A20186D630045226F /* TriangleLayer.swift */,
+				8C93EB3C201875A00045226F /* RectangleLayer.swift */,
+				8C93EB3E20187C950045226F /* WaveLayer.swift */,
+			);
+			path = Layers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CB0035F2016DA69000DCFFD /* 004-一个复杂动画的实现 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB003722016DA69000DCFFD /* Build configuration list for PBXNativeTarget "004-一个复杂动画的实现" */;
+			buildPhases = (
+				8CB0035C2016DA69000DCFFD /* Sources */,
+				8CB0035D2016DA69000DCFFD /* Frameworks */,
+				8CB0035E2016DA69000DCFFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "004-一个复杂动画的实现";
+			productName = "004-一个复杂动画的实现";
+			productReference = 8CB003602016DA69000DCFFD /* 004-一个复杂动画的实现.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CB003582016DA69000DCFFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "马遥";
+				TargetAttributes = {
+					8CB0035F2016DA69000DCFFD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8CB0035B2016DA69000DCFFD /* Build configuration list for PBXProject "004-一个复杂动画的实现" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CB003572016DA69000DCFFD;
+			productRefGroup = 8CB003612016DA69000DCFFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CB0035F2016DA69000DCFFD /* 004-一个复杂动画的实现 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CB0035E2016DA69000DCFFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB0036E2016DA69000DCFFD /* LaunchScreen.storyboard in Resources */,
+				8CB0036B2016DA69000DCFFD /* Assets.xcassets in Resources */,
+				8CB003692016DA69000DCFFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CB0035C2016DA69000DCFFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB003762016DBBB000DCFFD /* AnimationView.swift in Sources */,
+				8C93EB3F20187C950045226F /* WaveLayer.swift in Sources */,
+				8C93EB3D201875A00045226F /* RectangleLayer.swift in Sources */,
+				8C93EB3520185C370045226F /* Contents.swift in Sources */,
+				8CB003662016DA69000DCFFD /* ViewController.swift in Sources */,
+				8CB003642016DA69000DCFFD /* AppDelegate.swift in Sources */,
+				8C93EB392018692D0045226F /* OnevcatDelay.swift in Sources */,
+				8CB003792016DCC2000DCFFD /* CircleLayer.swift in Sources */,
+				8C93EB3B20186D630045226F /* TriangleLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8CB003672016DA69000DCFFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CB003682016DA69000DCFFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CB0036C2016DA69000DCFFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CB0036D2016DA69000DCFFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CB003702016DA69000DCFFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CB003712016DA69000DCFFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CB003732016DA69000DCFFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F692N24C9P;
+				INFOPLIST_FILE = "004-一个复杂动画的实现/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mervin1024.practice.-04----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CB003742016DA69000DCFFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F692N24C9P;
+				INFOPLIST_FILE = "004-一个复杂动画的实现/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mervin1024.practice.-04----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CB0035B2016DA69000DCFFD /* Build configuration list for PBXProject "004-一个复杂动画的实现" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB003702016DA69000DCFFD /* Debug */,
+				8CB003712016DA69000DCFFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CB003722016DA69000DCFFD /* Build configuration list for PBXNativeTarget "004-一个复杂动画的实现" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB003732016DA69000DCFFD /* Debug */,
+				8CB003742016DA69000DCFFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CB003582016DA69000DCFFD /* Project object */;
+}
