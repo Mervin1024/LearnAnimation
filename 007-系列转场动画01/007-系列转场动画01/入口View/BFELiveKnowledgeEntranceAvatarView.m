@@ -23,7 +23,8 @@
 @implementation BFELiveKnowledgeEntranceAvatarView
 
 - (instancetype)initWithType:(BFEEntranceAvatarViewType)type {
-    self = [super init];
+    CGRect frame = CGRectMake(0, 0, 200, 200);
+    self = [super initWithFrame:frame];
     if (self) {
         _type = type;
         [self createMainView];
@@ -32,6 +33,7 @@
 }
 
 - (void)createMainView {
+
     self.largeHalo = [[UIView alloc] init];
     self.largeHalo.backgroundColor = [UIColor clearColor];
     self.largeHalo.layer.borderColor = ColorWithAlpha(255, 255, 255, 0.15).CGColor;
@@ -44,7 +46,8 @@
     [self.largeHalo mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.mas_equalTo(self);
     }];
-    
+    self.largeHalo.layer.cornerRadius = self.frame.size.width / 2;
+
     self.miniHalo = [[UIView alloc] init];
     self.miniHalo.backgroundColor = ColorWithAlpha(255, 255, 255, 0.3);
     self.miniHalo.layer.shadowColor = ColorWithAlpha(0, 0, 0, 0.3).CGColor;
@@ -56,7 +59,8 @@
         make.center.mas_equalTo(self);
         make.width.height.mas_equalTo(self).multipliedBy(168/200.0);
     }];
-    
+    self.miniHalo.layer.cornerRadius = self.frame.size.width * (168/200.0) / 2;
+
     self.avatarFrameView = [[UIImageView alloc] init];
     self.avatarFrameView.image = [UIImage imageNamed:[self avatarFrameImageNameFromType:self.type]];
     [self addSubview:self.avatarFrameView];
@@ -104,11 +108,23 @@
     return imageName;
 }
 
-- (void)layoutSubviews {
-    [super layoutSubviews];
-    
-    self.largeHalo.layer.cornerRadius = self.largeHalo.frame.size.width / 2;
-    self.miniHalo.layer.cornerRadius = self.miniHalo.frame.size.width / 2;
+- (void)hideHalo {
+    CGFloat avatarFrameRadio = 146/200.0;
+    CGFloat miniHaloRadio = 168/200.0;
+    self.largeHalo.transform = CGAffineTransformMakeScale(avatarFrameRadio, avatarFrameRadio);
+    self.miniHalo.transform = CGAffineTransformMakeScale(miniHaloRadio * avatarFrameRadio, miniHaloRadio * avatarFrameRadio);
+}
+
+- (void)showHalo:(BOOL)animated {
+    if (!animated) {
+        self.largeHalo.transform = CGAffineTransformIdentity;
+        self.miniHalo.transform = CGAffineTransformIdentity;
+    } else {
+        [UIView animateWithDuration:0.3 delay:0 options:UIViewAnimationOptionCurveEaseIn animations:^{
+            self.largeHalo.transform = CGAffineTransformIdentity;
+            self.miniHalo.transform = CGAffineTransformIdentity;
+        } completion:nil];
+    }
 }
 
 @end

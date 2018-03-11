@@ -37,6 +37,7 @@
     }
     [[UIApplication sharedApplication] setStatusBarHidden:YES];
     [self.view addSubview:self.entranceView];
+    [self.entranceView show:YES];
 }
 
 

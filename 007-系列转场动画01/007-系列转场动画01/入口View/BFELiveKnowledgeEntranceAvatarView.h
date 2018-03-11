@@ -21,6 +21,9 @@ typedef NS_ENUM(NSUInteger, BFEEntranceAvatarViewType) {
 
 - (instancetype)initWithType:(BFEEntranceAvatarViewType)type;
 
+- (void)hideHalo;// 缩小光环至不可见
+- (void)showHalo:(BOOL)animated;// 显示光环
+
 @end
 
 #pragma mark - 学生头像框

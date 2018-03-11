@@ -43,3 +43,17 @@
 @property (nonatomic, readonly, assign) BOOL detailedRulesIsOpen;
 
 @end
+
+
+@interface BFELiveKnowledgeEntranceView (AppearAnimation)
+
+
+- (void)show:(BOOL)animated;
+
+@end
+
+@interface BFELiveKnowledgeEntranceView (BeginConfirm)
+
+- (void)hideWhenPresent;
+
+@end
