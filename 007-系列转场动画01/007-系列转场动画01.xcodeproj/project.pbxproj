@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C445EF220550DA000187845 /* BFELiveKnowledgeEntranceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C445EEF20550D9F00187845 /* BFELiveKnowledgeEntranceView.m */; };
+		8C445EF320550DA000187845 /* BFELiveKnowledgeEntranceAvatarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C445EF120550DA000187845 /* BFELiveKnowledgeEntranceAvatarView.m */; };
+		8C445EF820550EB900187845 /* BFEUICreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C445EF720550EB900187845 /* BFEUICreator.m */; };
+		8C445EFD205510F100187845 /* BFELiveKnowledgeEntranceDetailedRulesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C445EF9205510F100187845 /* BFELiveKnowledgeEntranceDetailedRulesView.m */; };
+		8C445EFE205510F100187845 /* BFELiveKnowledgeDetailedRulesAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C445EFA205510F100187845 /* BFELiveKnowledgeDetailedRulesAnimationView.m */; };
+		8CE24705205504BE006EB45D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE24704205504BE006EB45D /* AppDelegate.m */; };
+		8CE24708205504BE006EB45D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE24707205504BE006EB45D /* ViewController.m */; };
+		8CE2470B205504BE006EB45D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE24709205504BE006EB45D /* Main.storyboard */; };
+		8CE2470D205504BE006EB45D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CE2470C205504BE006EB45D /* Assets.xcassets */; };
+		8CE24710205504BE006EB45D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE2470E205504BE006EB45D /* LaunchScreen.storyboard */; };
+		8CE24713205504BE006EB45D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE24712205504BE006EB45D /* main.m */; };
+		90F96425D2948A17CE1AE3CD /* libPods-007-系列转场动画01.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3842589F7739F3445C1571E3 /* libPods-007-系列转场动画01.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C9780468A6661C7EE635D2D /* Pods-007-系列转场动画01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-007-系列转场动画01.debug.xcconfig"; path = "Pods/Target Support Files/Pods-007-系列转场动画01/Pods-007-系列转场动画01.debug.xcconfig"; sourceTree = "<group>"; };
+		3842589F7739F3445C1571E3 /* libPods-007-系列转场动画01.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-007-系列转场动画01.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C445EEE20550D9F00187845 /* BFELiveKnowledgeEntranceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFELiveKnowledgeEntranceView.h; sourceTree = "<group>"; };
+		8C445EEF20550D9F00187845 /* BFELiveKnowledgeEntranceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFELiveKnowledgeEntranceView.m; sourceTree = "<group>"; };
+		8C445EF020550DA000187845 /* BFELiveKnowledgeEntranceAvatarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFELiveKnowledgeEntranceAvatarView.h; sourceTree = "<group>"; };
+		8C445EF120550DA000187845 /* BFELiveKnowledgeEntranceAvatarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFELiveKnowledgeEntranceAvatarView.m; sourceTree = "<group>"; };
+		8C445EF420550DFF00187845 /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		8C445EF620550EB900187845 /* BFEUICreator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFEUICreator.h; sourceTree = "<group>"; };
+		8C445EF720550EB900187845 /* BFEUICreator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFEUICreator.m; sourceTree = "<group>"; };
+		8C445EF9205510F100187845 /* BFELiveKnowledgeEntranceDetailedRulesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFELiveKnowledgeEntranceDetailedRulesView.m; sourceTree = "<group>"; };
+		8C445EFA205510F100187845 /* BFELiveKnowledgeDetailedRulesAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFELiveKnowledgeDetailedRulesAnimationView.m; sourceTree = "<group>"; };
+		8C445EFB205510F100187845 /* BFELiveKnowledgeDetailedRulesAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFELiveKnowledgeDetailedRulesAnimationView.h; sourceTree = "<group>"; };
+		8C445EFC205510F100187845 /* BFELiveKnowledgeEntranceDetailedRulesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFELiveKnowledgeEntranceDetailedRulesView.h; sourceTree = "<group>"; };
+		8CE24700205504BE006EB45D /* 007-系列转场动画01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "007-系列转场动画01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE24703205504BE006EB45D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8CE24704205504BE006EB45D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8CE24706205504BE006EB45D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8CE24707205504BE006EB45D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8CE2470A205504BE006EB45D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CE2470C205504BE006EB45D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CE2470F205504BE006EB45D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CE24711205504BE006EB45D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CE24712205504BE006EB45D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9B722D0705132E9367EE428 /* Pods-007-系列转场动画01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-007-系列转场动画01.release.xcconfig"; path = "Pods/Target Support Files/Pods-007-系列转场动画01/Pods-007-系列转场动画01.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CE246FD205504BE006EB45D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90F96425D2948A17CE1AE3CD /* libPods-007-系列转场动画01.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		299AF9EF64952AEE3ACFD5DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C9780468A6661C7EE635D2D /* Pods-007-系列转场动画01.debug.xcconfig */,
+				B9B722D0705132E9367EE428 /* Pods-007-系列转场动画01.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8C445EED20550D8B00187845 /* 入口View */ = {
+			isa = PBXGroup;
+			children = (
+				8C445EEE20550D9F00187845 /* BFELiveKnowledgeEntranceView.h */,
+				8C445EEF20550D9F00187845 /* BFELiveKnowledgeEntranceView.m */,
+				8C445EFB205510F100187845 /* BFELiveKnowledgeDetailedRulesAnimationView.h */,
+				8C445EFA205510F100187845 /* BFELiveKnowledgeDetailedRulesAnimationView.m */,
+				8C445EFC205510F100187845 /* BFELiveKnowledgeEntranceDetailedRulesView.h */,
+				8C445EF9205510F100187845 /* BFELiveKnowledgeEntranceDetailedRulesView.m */,
+				8C445EF020550DA000187845 /* BFELiveKnowledgeEntranceAvatarView.h */,
+				8C445EF120550DA000187845 /* BFELiveKnowledgeEntranceAvatarView.m */,
+			);
+			path = "入口View";
+			sourceTree = "<group>";
+		};
+		8C445EF520550EA700187845 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				8C445EF420550DFF00187845 /* Macro.h */,
+				8C445EF620550EB900187845 /* BFEUICreator.h */,
+				8C445EF720550EB900187845 /* BFEUICreator.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		8CE246F7205504BE006EB45D = {
+			isa = PBXGroup;
+			children = (
+				8CE24702205504BE006EB45D /* 007-系列转场动画01 */,
+				8CE24701205504BE006EB45D /* Products */,
+				299AF9EF64952AEE3ACFD5DB /* Pods */,
+				B82F9855C2E631CDBD0E956A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8CE24701205504BE006EB45D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CE24700205504BE006EB45D /* 007-系列转场动画01.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CE24702205504BE006EB45D /* 007-系列转场动画01 */ = {
+			isa = PBXGroup;
+			children = (
+				8C445EF520550EA700187845 /* Tools */,
+				8C445EED20550D8B00187845 /* 入口View */,
+				8CE24703205504BE006EB45D /* AppDelegate.h */,
+				8CE24704205504BE006EB45D /* AppDelegate.m */,
+				8CE24706205504BE006EB45D /* ViewController.h */,
+				8CE24707205504BE006EB45D /* ViewController.m */,
+				8CE24709205504BE006EB45D /* Main.storyboard */,
+				8CE2470C205504BE006EB45D /* Assets.xcassets */,
+				8CE2470E205504BE006EB45D /* LaunchScreen.storyboard */,
+				8CE24711205504BE006EB45D /* Info.plist */,
+				8CE24712205504BE006EB45D /* main.m */,
+			);
+			path = "007-系列转场动画01";
+			sourceTree = "<group>";
+		};
+		B82F9855C2E631CDBD0E956A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3842589F7739F3445C1571E3 /* libPods-007-系列转场动画01.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CE246FF205504BE006EB45D /* 007-系列转场动画01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CE24716205504BE006EB45D /* Build configuration list for PBXNativeTarget "007-系列转场动画01" */;
+			buildPhases = (
+				F99485E696503FD92B3DC645 /* [CP] Check Pods Manifest.lock */,
+				8CE246FC205504BE006EB45D /* Sources */,
+				8CE246FD205504BE006EB45D /* Frameworks */,
+				8CE246FE205504BE006EB45D /* Resources */,
+				544D89E3C46A90A2BF332052 /* [CP] Embed Pods Frameworks */,
+				989C2AB8BB07D7AA9A5F3A8D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "007-系列转场动画01";
+			productName = "007-系列转场动画01";
+			productReference = 8CE24700205504BE006EB45D /* 007-系列转场动画01.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CE246F8205504BE006EB45D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "马遥";
+				TargetAttributes = {
+					8CE246FF205504BE006EB45D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8CE246FB205504BE006EB45D /* Build configuration list for PBXProject "007-系列转场动画01" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CE246F7205504BE006EB45D;
+			productRefGroup = 8CE24701205504BE006EB45D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CE246FF205504BE006EB45D /* 007-系列转场动画01 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CE246FE205504BE006EB45D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE24710205504BE006EB45D /* LaunchScreen.storyboard in Resources */,
+				8CE2470D205504BE006EB45D /* Assets.xcassets in Resources */,
+				8CE2470B205504BE006EB45D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		544D89E3C46A90A2BF332052 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-007-系列转场动画01/Pods-007-系列转场动画01-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		989C2AB8BB07D7AA9A5F3A8D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-007-系列转场动画01/Pods-007-系列转场动画01-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F99485E696503FD92B3DC645 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-007-系列转场动画01-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CE246FC205504BE006EB45D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE24708205504BE006EB45D /* ViewController.m in Sources */,
+				8C445EF220550DA000187845 /* BFELiveKnowledgeEntranceView.m in Sources */,
+				8C445EF820550EB900187845 /* BFEUICreator.m in Sources */,
+				8C445EF320550DA000187845 /* BFELiveKnowledgeEntranceAvatarView.m in Sources */,
+				8C445EFD205510F100187845 /* BFELiveKnowledgeEntranceDetailedRulesView.m in Sources */,
+				8CE24713205504BE006EB45D /* main.m in Sources */,
+				8C445EFE205510F100187845 /* BFELiveKnowledgeDetailedRulesAnimationView.m in Sources */,
+				8CE24705205504BE006EB45D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8CE24709205504BE006EB45D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CE2470A205504BE006EB45D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CE2470E205504BE006EB45D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CE2470F205504BE006EB45D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CE24714205504BE006EB45D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8CE24715205504BE006EB45D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CE24717205504BE006EB45D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C9780468A6661C7EE635D2D /* Pods-007-系列转场动画01.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F692N24C9P;
+				INFOPLIST_FILE = "007-系列转场动画01/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mervin1024.practice.-07-------01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CE24718205504BE006EB45D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9B722D0705132E9367EE428 /* Pods-007-系列转场动画01.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F692N24C9P;
+				INFOPLIST_FILE = "007-系列转场动画01/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mervin1024.practice.-07-------01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CE246FB205504BE006EB45D /* Build configuration list for PBXProject "007-系列转场动画01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE24714205504BE006EB45D /* Debug */,
+				8CE24715205504BE006EB45D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CE24716205504BE006EB45D /* Build configuration list for PBXNativeTarget "007-系列转场动画01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE24717205504BE006EB45D /* Debug */,
+				8CE24718205504BE006EB45D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CE246F8205504BE006EB45D /* Project object */;
+}
