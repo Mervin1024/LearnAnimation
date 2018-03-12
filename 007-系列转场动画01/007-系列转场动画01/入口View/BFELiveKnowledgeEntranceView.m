@@ -493,7 +493,6 @@ static NSString *const FirstTimePressedBeginButton = @"BFELiveKnowledgeEntranceP
         make.width.mas_equalTo(184);
         make.height.mas_equalTo(70);
     }];
-
 }
 
 @end
