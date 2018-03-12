@@ -16,5 +16,6 @@ typedef NS_ENUM(NSUInteger, BFEDailyTaskType) {
 @interface BFEDailyTaskImageView : UIView
 
 - (instancetype)initWithDailyTaskType:(BFEDailyTaskType)type;
+- (void)startAnimation;
 
 @end

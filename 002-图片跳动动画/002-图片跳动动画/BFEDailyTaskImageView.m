@@ -6,6 +6,8 @@
 //  Copyright © 2018年 boxfish. All rights reserved.
 //
 
+#define COLOR(r,g,b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
+
 #import "BFEDailyTaskImageView.h"
 
 @interface BFEDailyTaskImageView ()
@@ -37,7 +39,6 @@
 - (void)configureView {
     [self createImageLayer];
     [self createDiffuseLayer];
-    [self addAnimation];
 }
 
 - (void)createImageLayer {
@@ -50,17 +51,16 @@
 - (void)createDiffuseLayer {
     self.diffuseLayer = [CAShapeLayer layer];
     self.diffuseLayer.fillColor = [UIColor clearColor].CGColor;
-    self.diffuseLayer.strokeColor = [UIColor redColor].CGColor;
+    self.diffuseLayer.strokeColor = COLOR(255, 61, 50).CGColor;
     self.diffuseLayer.lineWidth = 1;
     self.diffuseLayer.path = [self diffuseBeginPath].CGPath;
-    [self.layer insertSublayer:self.diffuseLayer below:self.imageLayer];
+    [self.layer insertSublayer:self.diffuseLayer atIndex:0];
+
 }
 
-- (void)addAnimation {
+- (void)startAnimation {
     [self.imageLayer addAnimation:[self expandAnimation] forKey:nil];
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.07 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [self.diffuseLayer addAnimation:[self diffuseAnimation] forKey:nil];
-    });
+    [self.diffuseLayer addAnimation:[self diffuseAnimation] forKey:nil];
 }
 
 #pragma mark - ShapeLayer 的 path
@@ -92,13 +92,13 @@
 - (CAAnimationGroup *)expandAnimation {
     CABasicAnimation *animation1 = [CABasicAnimation animationWithKeyPath:@"transform.scale"];
     animation1.fromValue = @1;
-    animation1.toValue = @1.05;
+    animation1.toValue = @1.07;
     animation1.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut];
     animation1.duration = 0.1;
     animation1.beginTime = 0;
     
     CABasicAnimation *animation2 = [CABasicAnimation animationWithKeyPath:@"transform.scale"];
-    animation2.fromValue = @1.05;
+    animation2.fromValue = @1.07;
     animation2.toValue = @1;
     animation2.duration = 0.5;
     animation2.beginTime = animation1.duration + animation1.beginTime;
@@ -117,12 +117,19 @@
 }
 
 - (CAAnimationGroup *)diffuseAnimation {
+    CABasicAnimation *animation0 = [CABasicAnimation animationWithKeyPath:@"transform.scale"];
+    animation0.fromValue = @1;
+    animation0.fromValue = @1;
+    animation0.duration = 0.07;
+    animation0.beginTime = 0;
+    
+    
     CABasicAnimation *animation1 = [CABasicAnimation animationWithKeyPath:@"path"];
     animation1.fromValue = (__bridge id _Nullable)([self diffuseBeginPath].CGPath);
     animation1.toValue = (__bridge id _Nullable)([self diffuseEndPath].CGPath);
     animation1.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut];
     animation1.duration = 0.9;
-    animation1.beginTime = 0;
+    animation1.beginTime = animation0.duration + animation0.beginTime;
     
     CABasicAnimation *animation2 = [CABasicAnimation animationWithKeyPath:@"opacity"];
     animation2.fromValue = @1;
@@ -136,7 +143,7 @@
     CABasicAnimation *animation3 = [CABasicAnimation animationWithKeyPath:@"transform.scale"];
     animation3.fromValue = @1;
     animation3.fromValue = @1;
-    animation3.duration = 0.9;
+    animation3.duration = 0.83;
     animation3.beginTime = animation2.duration + animation2.beginTime;
     
     CAAnimationGroup *animationGroup = [CAAnimationGroup animation];

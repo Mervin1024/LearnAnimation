@@ -18,9 +18,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.imageView = [[BFEDailyTaskImageView alloc] initWithDailyTaskType:BFEDailyTaskTypeCourse];
-    self.imageView.frame = CGRectMake(0, 0, 60, 60);
+    self.imageView.frame = CGRectMake(0, 0, 80, 80);
     self.imageView.center = self.view.center;
     [self.view addSubview:self.imageView];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    [self.imageView startAnimation];
 }
 
 
