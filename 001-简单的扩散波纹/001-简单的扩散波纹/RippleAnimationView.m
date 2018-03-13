@@ -39,9 +39,6 @@ static double const animationDuration = 3;
 }
 
 - (void)drawRect:(CGRect)rect {
-    [super drawRect:rect];
-    [[UIColor clearColor] setFill];
-    UIRectFill(rect);
     
     CALayer *animationLayer = [CALayer layer];
     
