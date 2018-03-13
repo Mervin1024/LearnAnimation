@@ -8,4 +8,6 @@
 ##### [2.图片跳动](https://github.com/Mervin1024/LearnAnimation/blob/master/002-图片跳动动画/)
 <p><img src="https://github.com/Mervin1024/Resources/blob/master/gif/PicturePulsationAnimation.gif?raw=true" width="30%" height="30%"></p>
 
+##### [3.Layer 组合动画](https://github.com/Mervin1024/LearnAnimation/blob/master/003-一个复杂动画的实现/)
 
+<p><img src="https://github.com/Mervin1024/Resources/blob/master/gif/16052d52aae6800d.gif?raw=true" width="20%" height="20%"></p>
