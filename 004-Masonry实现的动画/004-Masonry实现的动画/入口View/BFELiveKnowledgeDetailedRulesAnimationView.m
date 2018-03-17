@@ -55,7 +55,7 @@
     self.animationMaskView.backgroundColor = GRAYCOLOR(255);
     self.labelBackgroundView.maskView = self.animationMaskView;
     // 头部标题
-    self.titleLabel = [BFEUICreator createLabel:@"闯关细则" color:GRAYCOLOR(255) font:[UIFont systemFontOfSize:16]];
+    self.titleLabel = [BFEUICreator createLabel:@"经典语录" color:GRAYCOLOR(255) font:[UIFont systemFontOfSize:16]];
     [self.labelBackgroundView addSubview:self.titleLabel];
     [self.titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerX.mas_equalTo(self.labelBackgroundView);
@@ -88,19 +88,31 @@
 - (NSMutableAttributedString *)contentLabelAttributedString {
     CGFloat contentLabelFontSize = 14;
     NSMutableAttributedString *attrStr = [[NSMutableAttributedString alloc] init];
-    NSAttributedString *str1 = [[NSAttributedString alloc] initWithString:@"1. 实时闯关开启时间：每天18:00-23:00 & 周六日9:00-12:00 \n" attributes:@{NSFontAttributeName:PingFang_R(contentLabelFontSize)}];
+    NSAttributedString *str1 = [[NSAttributedString alloc] initWithString:@"1. 山有木兮木有枝，心悦君兮君不知 \n" attributes:@{NSFontAttributeName:PingFang_R(contentLabelFontSize)}];
     [attrStr appendAttributedString:str1];
     NSAttributedString *str_space = [[NSAttributedString alloc] initWithString:@" \n" attributes:@{NSFontAttributeName:PingFang_R(6.5)}];
     [attrStr appendAttributedString:str_space];
-    NSAttributedString *str2 = [[NSAttributedString alloc] initWithString:@"2. 开始闯关即开始连线外教进行视频交流。\n" attributes:@{NSFontAttributeName:PingFang_R(contentLabelFontSize)}];
+    NSAttributedString *str2 = [[NSAttributedString alloc] initWithString:@"2. 人生若只如初见，何事秋风悲画扇。\n" attributes:@{NSFontAttributeName:PingFang_R(contentLabelFontSize)}];
     [attrStr appendAttributedString:str2];
     [attrStr appendAttributedString:str_space];
-    NSAttributedString *str3 = [[NSAttributedString alloc] initWithString:@"3. 连线时间低于3分钟则计为3分钟；超过3分钟的部分按实际时长计算，不足1分钟计为1分钟。\n" attributes:@{NSFontAttributeName:PingFang_R(contentLabelFontSize)}];
+    NSAttributedString *str3 = [[NSAttributedString alloc] initWithString:@"3. 十年生死两茫茫，不思量，自难忘。\n" attributes:@{NSFontAttributeName:PingFang_R(contentLabelFontSize)}];
     [attrStr appendAttributedString:str3];
     [attrStr appendAttributedString:str_space];
-    NSAttributedString *str4 = [[NSAttributedString alloc] initWithString:@"4. 国际班学习规划中的“外教学习指导”，可兑换为“知识点外教强化”。1次外教学习指导＝3分钟知识点终极强化。" attributes:@{NSFontAttributeName:PingFang_R(contentLabelFontSize)}];
+    NSAttributedString *str4 = [[NSAttributedString alloc] initWithString:@"4. 曾经沧海难为水，除却巫山不是云。\n" attributes:@{NSFontAttributeName:PingFang_R(contentLabelFontSize)}];
     [attrStr appendAttributedString:str4];
+    [attrStr appendAttributedString:str_space];
+    NSAttributedString *str5 = [[NSAttributedString alloc] initWithString:@"5. 玲珑骰子安红豆，入骨相思知不知。\n" attributes:@{NSFontAttributeName:PingFang_R(contentLabelFontSize)}];
+    [attrStr appendAttributedString:str5];
+    [attrStr appendAttributedString:str_space];
+    NSAttributedString *str6 = [[NSAttributedString alloc] initWithString:@"6. 只愿君心似我心，定不负相思意。\n" attributes:@{NSFontAttributeName:PingFang_R(contentLabelFontSize)}];
+    [attrStr appendAttributedString:str6];
+    [attrStr appendAttributedString:str_space];
+    NSAttributedString *str7 = [[NSAttributedString alloc] initWithString:@"7. 平生不会相思，才会相思，便害相思。\n" attributes:@{NSFontAttributeName:PingFang_R(contentLabelFontSize)}];
+    [attrStr appendAttributedString:str7];
+
     [attrStr addAttribute:NSForegroundColorAttributeName value:GRAYCOLOR(255) range:NSMakeRange(0, attrStr.string.length)];
+    
+    
     
     return attrStr;
 

@@ -7,44 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8C445EF220550DA000187845 /* BFELiveKnowledgeEntranceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C445EEF20550D9F00187845 /* BFELiveKnowledgeEntranceView.m */; };
-		8C445EF320550DA000187845 /* BFELiveKnowledgeEntranceAvatarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C445EF120550DA000187845 /* BFELiveKnowledgeEntranceAvatarView.m */; };
-		8C445EF820550EB900187845 /* BFEUICreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C445EF720550EB900187845 /* BFEUICreator.m */; };
-		8C445EFD205510F100187845 /* BFELiveKnowledgeEntranceDetailedRulesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C445EF9205510F100187845 /* BFELiveKnowledgeEntranceDetailedRulesView.m */; };
-		8C445EFE205510F100187845 /* BFELiveKnowledgeDetailedRulesAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C445EFA205510F100187845 /* BFELiveKnowledgeDetailedRulesAnimationView.m */; };
-		8CE24705205504BE006EB45D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE24704205504BE006EB45D /* AppDelegate.m */; };
-		8CE24708205504BE006EB45D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE24707205504BE006EB45D /* ViewController.m */; };
-		8CE2470B205504BE006EB45D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE24709205504BE006EB45D /* Main.storyboard */; };
-		8CE2470D205504BE006EB45D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CE2470C205504BE006EB45D /* Assets.xcassets */; };
-		8CE24710205504BE006EB45D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE2470E205504BE006EB45D /* LaunchScreen.storyboard */; };
-		8CE24713205504BE006EB45D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE24712205504BE006EB45D /* main.m */; };
+		8C999E46205D2611006D9F85 /* BFELiveKnowledgeEntranceDetailedRulesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C999E30205D2611006D9F85 /* BFELiveKnowledgeEntranceDetailedRulesView.m */; };
+		8C999E47205D2611006D9F85 /* BFELiveKnowledgeEntranceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C999E32205D2611006D9F85 /* BFELiveKnowledgeEntranceView.m */; };
+		8C999E48205D2611006D9F85 /* BFELiveKnowledgeDetailedRulesAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C999E33205D2611006D9F85 /* BFELiveKnowledgeDetailedRulesAnimationView.m */; };
+		8C999E49205D2611006D9F85 /* BFELiveKnowledgeEntranceAvatarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C999E36205D2611006D9F85 /* BFELiveKnowledgeEntranceAvatarView.m */; };
+		8C999E4A205D2611006D9F85 /* BFEUICreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C999E3A205D2611006D9F85 /* BFEUICreator.m */; };
+		8C999E4B205D2611006D9F85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C999E3C205D2611006D9F85 /* Assets.xcassets */; };
+		8C999E4C205D2611006D9F85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C999E3D205D2611006D9F85 /* ViewController.m */; };
+		8C999E4D205D2611006D9F85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C999E3E205D2611006D9F85 /* LaunchScreen.storyboard */; };
+		8C999E4E205D2611006D9F85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C999E40205D2611006D9F85 /* Main.storyboard */; };
+		8C999E4F205D2611006D9F85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C999E42205D2611006D9F85 /* main.m */; };
+		8C999E50205D2611006D9F85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C999E43205D2611006D9F85 /* AppDelegate.m */; };
+		8C999E51205D2611006D9F85 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C999E44205D2611006D9F85 /* Info.plist */; };
 		90F96425D2948A17CE1AE3CD /* libPods-007-系列转场动画01.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3842589F7739F3445C1571E3 /* libPods-007-系列转场动画01.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0C9780468A6661C7EE635D2D /* Pods-007-系列转场动画01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-007-系列转场动画01.debug.xcconfig"; path = "Pods/Target Support Files/Pods-007-系列转场动画01/Pods-007-系列转场动画01.debug.xcconfig"; sourceTree = "<group>"; };
 		3842589F7739F3445C1571E3 /* libPods-007-系列转场动画01.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-007-系列转场动画01.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C445EEE20550D9F00187845 /* BFELiveKnowledgeEntranceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFELiveKnowledgeEntranceView.h; sourceTree = "<group>"; };
-		8C445EEF20550D9F00187845 /* BFELiveKnowledgeEntranceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFELiveKnowledgeEntranceView.m; sourceTree = "<group>"; };
-		8C445EF020550DA000187845 /* BFELiveKnowledgeEntranceAvatarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFELiveKnowledgeEntranceAvatarView.h; sourceTree = "<group>"; };
-		8C445EF120550DA000187845 /* BFELiveKnowledgeEntranceAvatarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFELiveKnowledgeEntranceAvatarView.m; sourceTree = "<group>"; };
-		8C445EF420550DFF00187845 /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
-		8C445EF620550EB900187845 /* BFEUICreator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFEUICreator.h; sourceTree = "<group>"; };
-		8C445EF720550EB900187845 /* BFEUICreator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFEUICreator.m; sourceTree = "<group>"; };
-		8C445EF9205510F100187845 /* BFELiveKnowledgeEntranceDetailedRulesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFELiveKnowledgeEntranceDetailedRulesView.m; sourceTree = "<group>"; };
-		8C445EFA205510F100187845 /* BFELiveKnowledgeDetailedRulesAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFELiveKnowledgeDetailedRulesAnimationView.m; sourceTree = "<group>"; };
-		8C445EFB205510F100187845 /* BFELiveKnowledgeDetailedRulesAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFELiveKnowledgeDetailedRulesAnimationView.h; sourceTree = "<group>"; };
-		8C445EFC205510F100187845 /* BFELiveKnowledgeEntranceDetailedRulesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFELiveKnowledgeEntranceDetailedRulesView.h; sourceTree = "<group>"; };
+		8C999E2F205D2611006D9F85 /* BFELiveKnowledgeDetailedRulesAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFELiveKnowledgeDetailedRulesAnimationView.h; sourceTree = "<group>"; };
+		8C999E30205D2611006D9F85 /* BFELiveKnowledgeEntranceDetailedRulesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFELiveKnowledgeEntranceDetailedRulesView.m; sourceTree = "<group>"; };
+		8C999E31205D2611006D9F85 /* BFELiveKnowledgeEntranceAvatarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFELiveKnowledgeEntranceAvatarView.h; sourceTree = "<group>"; };
+		8C999E32205D2611006D9F85 /* BFELiveKnowledgeEntranceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFELiveKnowledgeEntranceView.m; sourceTree = "<group>"; };
+		8C999E33205D2611006D9F85 /* BFELiveKnowledgeDetailedRulesAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFELiveKnowledgeDetailedRulesAnimationView.m; sourceTree = "<group>"; };
+		8C999E34205D2611006D9F85 /* BFELiveKnowledgeEntranceDetailedRulesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFELiveKnowledgeEntranceDetailedRulesView.h; sourceTree = "<group>"; };
+		8C999E35205D2611006D9F85 /* BFELiveKnowledgeEntranceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFELiveKnowledgeEntranceView.h; sourceTree = "<group>"; };
+		8C999E36205D2611006D9F85 /* BFELiveKnowledgeEntranceAvatarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFELiveKnowledgeEntranceAvatarView.m; sourceTree = "<group>"; };
+		8C999E38205D2611006D9F85 /* BFEUICreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFEUICreator.h; sourceTree = "<group>"; };
+		8C999E39205D2611006D9F85 /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		8C999E3A205D2611006D9F85 /* BFEUICreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFEUICreator.m; sourceTree = "<group>"; };
+		8C999E3B205D2611006D9F85 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8C999E3C205D2611006D9F85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C999E3D205D2611006D9F85 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8C999E3F205D2611006D9F85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C999E41205D2611006D9F85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C999E42205D2611006D9F85 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C999E43205D2611006D9F85 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8C999E44205D2611006D9F85 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C999E45205D2611006D9F85 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8CE24700205504BE006EB45D /* 007-系列转场动画01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "007-系列转场动画01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CE24703205504BE006EB45D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8CE24704205504BE006EB45D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8CE24706205504BE006EB45D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8CE24707205504BE006EB45D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8CE2470A205504BE006EB45D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8CE2470C205504BE006EB45D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8CE2470F205504BE006EB45D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8CE24711205504BE006EB45D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8CE24712205504BE006EB45D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B9B722D0705132E9367EE428 /* Pods-007-系列转场动画01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-007-系列转场动画01.release.xcconfig"; path = "Pods/Target Support Files/Pods-007-系列转场动画01/Pods-007-系列转场动画01.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,27 +70,45 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		8C445EED20550D8B00187845 /* 入口View */ = {
+		8C999E2D205D2611006D9F85 /* 004-Masonry实现的动画 */ = {
 			isa = PBXGroup;
 			children = (
-				8C445EEE20550D9F00187845 /* BFELiveKnowledgeEntranceView.h */,
-				8C445EEF20550D9F00187845 /* BFELiveKnowledgeEntranceView.m */,
-				8C445EFB205510F100187845 /* BFELiveKnowledgeDetailedRulesAnimationView.h */,
-				8C445EFA205510F100187845 /* BFELiveKnowledgeDetailedRulesAnimationView.m */,
-				8C445EFC205510F100187845 /* BFELiveKnowledgeEntranceDetailedRulesView.h */,
-				8C445EF9205510F100187845 /* BFELiveKnowledgeEntranceDetailedRulesView.m */,
-				8C445EF020550DA000187845 /* BFELiveKnowledgeEntranceAvatarView.h */,
-				8C445EF120550DA000187845 /* BFELiveKnowledgeEntranceAvatarView.m */,
+				8C999E2E205D2611006D9F85 /* 入口View */,
+				8C999E37205D2611006D9F85 /* Tools */,
+				8C999E3B205D2611006D9F85 /* AppDelegate.h */,
+				8C999E3C205D2611006D9F85 /* Assets.xcassets */,
+				8C999E3D205D2611006D9F85 /* ViewController.m */,
+				8C999E3E205D2611006D9F85 /* LaunchScreen.storyboard */,
+				8C999E40205D2611006D9F85 /* Main.storyboard */,
+				8C999E42205D2611006D9F85 /* main.m */,
+				8C999E43205D2611006D9F85 /* AppDelegate.m */,
+				8C999E44205D2611006D9F85 /* Info.plist */,
+				8C999E45205D2611006D9F85 /* ViewController.h */,
+			);
+			path = "004-Masonry实现的动画";
+			sourceTree = "<group>";
+		};
+		8C999E2E205D2611006D9F85 /* 入口View */ = {
+			isa = PBXGroup;
+			children = (
+				8C999E2F205D2611006D9F85 /* BFELiveKnowledgeDetailedRulesAnimationView.h */,
+				8C999E30205D2611006D9F85 /* BFELiveKnowledgeEntranceDetailedRulesView.m */,
+				8C999E31205D2611006D9F85 /* BFELiveKnowledgeEntranceAvatarView.h */,
+				8C999E32205D2611006D9F85 /* BFELiveKnowledgeEntranceView.m */,
+				8C999E33205D2611006D9F85 /* BFELiveKnowledgeDetailedRulesAnimationView.m */,
+				8C999E34205D2611006D9F85 /* BFELiveKnowledgeEntranceDetailedRulesView.h */,
+				8C999E35205D2611006D9F85 /* BFELiveKnowledgeEntranceView.h */,
+				8C999E36205D2611006D9F85 /* BFELiveKnowledgeEntranceAvatarView.m */,
 			);
 			path = "入口View";
 			sourceTree = "<group>";
 		};
-		8C445EF520550EA700187845 /* Tools */ = {
+		8C999E37205D2611006D9F85 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				8C445EF420550DFF00187845 /* Macro.h */,
-				8C445EF620550EB900187845 /* BFEUICreator.h */,
-				8C445EF720550EB900187845 /* BFEUICreator.m */,
+				8C999E38205D2611006D9F85 /* BFEUICreator.h */,
+				8C999E39205D2611006D9F85 /* Macro.h */,
+				8C999E3A205D2611006D9F85 /* BFEUICreator.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -97,7 +116,7 @@
 		8CE246F7205504BE006EB45D = {
 			isa = PBXGroup;
 			children = (
-				8CE24702205504BE006EB45D /* 007-系列转场动画01 */,
+				8C999E2D205D2611006D9F85 /* 004-Masonry实现的动画 */,
 				8CE24701205504BE006EB45D /* Products */,
 				299AF9EF64952AEE3ACFD5DB /* Pods */,
 				B82F9855C2E631CDBD0E956A /* Frameworks */,
@@ -110,24 +129,6 @@
 				8CE24700205504BE006EB45D /* 007-系列转场动画01.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		8CE24702205504BE006EB45D /* 007-系列转场动画01 */ = {
-			isa = PBXGroup;
-			children = (
-				8C445EF520550EA700187845 /* Tools */,
-				8C445EED20550D8B00187845 /* 入口View */,
-				8CE24703205504BE006EB45D /* AppDelegate.h */,
-				8CE24704205504BE006EB45D /* AppDelegate.m */,
-				8CE24706205504BE006EB45D /* ViewController.h */,
-				8CE24707205504BE006EB45D /* ViewController.m */,
-				8CE24709205504BE006EB45D /* Main.storyboard */,
-				8CE2470C205504BE006EB45D /* Assets.xcassets */,
-				8CE2470E205504BE006EB45D /* LaunchScreen.storyboard */,
-				8CE24711205504BE006EB45D /* Info.plist */,
-				8CE24712205504BE006EB45D /* main.m */,
-			);
-			path = "007-系列转场动画01";
 			sourceTree = "<group>";
 		};
 		B82F9855C2E631CDBD0E956A /* Frameworks */ = {
@@ -176,7 +177,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8CE246FB205504BE006EB45D /* Build configuration list for PBXProject "007-系列转场动画01" */;
+			buildConfigurationList = 8CE246FB205504BE006EB45D /* Build configuration list for PBXProject "004-Masonry实现的动画" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -199,9 +200,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CE24710205504BE006EB45D /* LaunchScreen.storyboard in Resources */,
-				8CE2470D205504BE006EB45D /* Assets.xcassets in Resources */,
-				8CE2470B205504BE006EB45D /* Main.storyboard in Resources */,
+				8C999E51205D2611006D9F85 /* Info.plist in Resources */,
+				8C999E4E205D2611006D9F85 /* Main.storyboard in Resources */,
+				8C999E4D205D2611006D9F85 /* LaunchScreen.storyboard in Resources */,
+				8C999E4B205D2611006D9F85 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,34 +265,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CE24708205504BE006EB45D /* ViewController.m in Sources */,
-				8C445EF220550DA000187845 /* BFELiveKnowledgeEntranceView.m in Sources */,
-				8C445EF820550EB900187845 /* BFEUICreator.m in Sources */,
-				8C445EF320550DA000187845 /* BFELiveKnowledgeEntranceAvatarView.m in Sources */,
-				8C445EFD205510F100187845 /* BFELiveKnowledgeEntranceDetailedRulesView.m in Sources */,
-				8CE24713205504BE006EB45D /* main.m in Sources */,
-				8C445EFE205510F100187845 /* BFELiveKnowledgeDetailedRulesAnimationView.m in Sources */,
-				8CE24705205504BE006EB45D /* AppDelegate.m in Sources */,
+				8C999E4C205D2611006D9F85 /* ViewController.m in Sources */,
+				8C999E48205D2611006D9F85 /* BFELiveKnowledgeDetailedRulesAnimationView.m in Sources */,
+				8C999E49205D2611006D9F85 /* BFELiveKnowledgeEntranceAvatarView.m in Sources */,
+				8C999E50205D2611006D9F85 /* AppDelegate.m in Sources */,
+				8C999E46205D2611006D9F85 /* BFELiveKnowledgeEntranceDetailedRulesView.m in Sources */,
+				8C999E47205D2611006D9F85 /* BFELiveKnowledgeEntranceView.m in Sources */,
+				8C999E4A205D2611006D9F85 /* BFEUICreator.m in Sources */,
+				8C999E4F205D2611006D9F85 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8CE24709205504BE006EB45D /* Main.storyboard */ = {
+		8C999E3E205D2611006D9F85 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8CE2470A205504BE006EB45D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8CE2470E205504BE006EB45D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8CE2470F205504BE006EB45D /* Base */,
+				8C999E3F205D2611006D9F85 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8C999E40205D2611006D9F85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C999E41205D2611006D9F85 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -407,7 +409,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F692N24C9P;
-				INFOPLIST_FILE = "007-系列转场动画01/Info.plist";
+				INFOPLIST_FILE = "004-Masonry实现的动画/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mervin1024.practice.-07-------01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,7 +424,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F692N24C9P;
-				INFOPLIST_FILE = "007-系列转场动画01/Info.plist";
+				INFOPLIST_FILE = "004-Masonry实现的动画/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mervin1024.practice.-07-------01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,7 +435,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8CE246FB205504BE006EB45D /* Build configuration list for PBXProject "007-系列转场动画01" */ = {
+		8CE246FB205504BE006EB45D /* Build configuration list for PBXProject "004-Masonry实现的动画" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8CE24714205504BE006EB45D /* Debug */,

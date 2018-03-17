@@ -92,7 +92,7 @@ static NSString *const FirstTimePressedBeginButton = @"BFELiveKnowledgeEntranceP
     self.backgroundImageView = [[UIImageView alloc] init];
     [self addSubview:self.backgroundImageView];
     self.backgroundImageView.contentMode = UIViewContentModeScaleAspectFill;
-    self.backgroundImageView.layer.masksToBounds = YES;
+    self.backgroundImageView.clipsToBounds = YES;
     self.backgroundImageView.image = [UIImage imageNamed:@"courseDefault"];
 
 }
@@ -137,18 +137,17 @@ static NSString *const FirstTimePressedBeginButton = @"BFELiveKnowledgeEntranceP
 
 - (void)createUserAvatar {
     // 用户名称
-    NSString *avaterName = @"霄淼";
-    // 剩余点评次数
+    NSString *avaterName = @"比利王";
     
     self.userAvatarView = [[BFELiveKnowledgeEntranceStudentAvatarView alloc] initWithStudentName:avaterName breakBarrierSurplusCount:0];
     [self addSubview:self.userAvatarView];
     
-    UIImage *avatar = [UIImage imageNamed:@"IMG_0903"];
+    UIImage *avatar = [UIImage imageNamed:@"78310a55b319ebc4acda9dc68126cffc1f1716ca"];
     self.userAvatarView.avatarImageView.image = avatar;
 }
 
 - (void)createTeacherAvatar {
-    self.teacherAvatarView = [[BFELiveKnowledgeEntranceTeacherAvatarView alloc] initWithTeacherName:@"外教"];
+    self.teacherAvatarView = [[BFELiveKnowledgeEntranceTeacherAvatarView alloc] initWithTeacherName:@"Van漾"];
     [self addSubview:self.teacherAvatarView];
 }
 
@@ -169,12 +168,12 @@ static NSString *const FirstTimePressedBeginButton = @"BFELiveKnowledgeEntranceP
 #pragma mark - - 底部三个按钮
 
 - (void)createDetailedRulesButton {
-    self.detailedRulesButton = [BFEUICreator createButtonWithTitle:@"闯关细则" titleColor:GRAYCOLOR(255) font:PingFang_S(12) target:self action:@selector(detailedRulesButtonDidPressed:)];
+    self.detailedRulesButton = [BFEUICreator createButtonWithTitle:@"旁观者语录" titleColor:GRAYCOLOR(255) font:PingFang_S(12) target:self action:@selector(detailedRulesButtonDidPressed:)];
     [self addSubview:self.detailedRulesButton];
 }
 
 - (void)createTutoringButton {
-    self.tutoringButton = [BFEUICreator createButtonWithTitle:@"老师辅导" titleColor:COLOR(255, 224, 93) font:PingFang_S(14) target:self action:@selector(tutoringButtonDidPressed:)];
+    self.tutoringButton = [BFEUICreator createButtonWithTitle:@"我要参与" titleColor:COLOR(255, 224, 93) font:PingFang_S(14) target:self action:@selector(tutoringButtonDidPressed:)];
     [self addSubview:self.tutoringButton];
     self.tutoringButton.layer.shadowColor = GRAYCOLOR(0).CGColor;
     self.tutoringButton.layer.shadowOffset = CGSizeZero;
@@ -186,7 +185,7 @@ static NSString *const FirstTimePressedBeginButton = @"BFELiveKnowledgeEntranceP
     self.beginButton = [UIButton buttonWithType:UIButtonTypeSystem];
     [self.beginButton setBackgroundImage:[UIImage imageNamed:@"BFELiveKnowledgeEntranceBeginButton"] forState:UIControlStateNormal];
     [self.beginButton addTarget:self action:@selector(beginButtonDidPressed:) forControlEvents:UIControlEventTouchUpInside];
-    [self.beginButton setTitle:@"开始闯关" forState:UIControlStateNormal];
+    [self.beginButton setTitle:@"开始♂摔跤" forState:UIControlStateNormal];
     self.beginButton.titleLabel.font = PingFang_S(23);
     [self.beginButton setTitleColor:COLOR(143, 75, 10) forState:UIControlStateNormal];
     self.beginButton.tintColor = [UIColor clearColor];

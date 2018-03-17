@@ -71,6 +71,8 @@
     
     self.avatarImageView = [[UIImageView alloc] init];
     [self addSubview:self.avatarImageView];
+    self.avatarImageView.contentMode = UIViewContentModeScaleAspectFill;
+    self.avatarImageView.clipsToBounds = YES;
     [self.avatarImageView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.center.mas_equalTo(self);
         make.width.height.mas_equalTo(self).multipliedBy(129/200.0);
@@ -150,8 +152,8 @@
 }
 
 - (void)createLabel {
-    self.nameAndCountLabel = [BFEUICreator createLabel:@" " color:GRAYCOLOR(243) font:[UIFont systemFontOfSize:11]];
-    self.nameAndCountLabel.numberOfLines = 2;
+    self.nameAndCountLabel = [BFEUICreator createLabel:@" " color:GRAYCOLOR(243) font:[UIFont systemFontOfSize:17]];
+    self.nameAndCountLabel.numberOfLines = 1;
     self.nameAndCountLabel.textAlignment = NSTextAlignmentCenter;
     self.nameAndCountLabel.layer.shadowColor = COLOR(0, 22, 99).CGColor;
     CGFloat shadowOffset = 1;
@@ -161,7 +163,7 @@
     
     [self.ribbonView addSubview:self.nameAndCountLabel];
     [self.nameAndCountLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.mas_equalTo(self.ribbonView).offset(0);
+        make.top.mas_equalTo(self.ribbonView).offset(5);
         make.centerX.mas_equalTo(self.ribbonView);
     }];
     
@@ -169,7 +171,7 @@
 }
 
 - (void)updateLabelText {
-    NSString *labelText = [NSString stringWithFormat:@"%@\n剩余闯关次数 %@",self.name?:@" ",@"∞"];
+    NSString *labelText = [NSString stringWithFormat:@"%@",self.name];
     self.nameAndCountLabel.text = labelText;
 }
 
@@ -227,18 +229,24 @@
     
     [self setName:_name];
     
-    self.avatarImageView.image = [UIImage imageNamed:@"liveKnowledgeEntranceTeacherAvatar"];
-    [self.avatarImageView mas_remakeConstraints:^(MASConstraintMaker *make) {
-        make.top.mas_equalTo(self).offset(8);
-        make.bottom.mas_equalTo(self).offset(-48);
-        make.width.mas_equalTo(self.avatarImageView.mas_height).multipliedBy(120/160.0);
-        make.right.mas_equalTo(self).offset(-31);
-    }];
+    self.avatarImageView.image = [UIImage imageNamed:@"eac4b74543a98226b8ca9e398282b9014a90eba1"];
+//    [self.avatarImageView mas_remakeConstraints:^(MASConstraintMaker *make) {
+//        make.top.mas_equalTo(self).offset(8);
+//        make.bottom.mas_equalTo(self).offset(-48);
+//        make.width.mas_equalTo(self.avatarImageView.mas_height).multipliedBy(120/160.0);
+//        make.right.mas_equalTo(self).offset(-31);
+//    }];
 }
 
 - (void)setName:(NSString *)name {
     _name = name;
     self.nameLabel.text = name?:@" ";
+}
+
+- (void)layoutSubviews {
+    [super layoutSubviews];
+    self.avatarImageView.layer.cornerRadius = self.avatarImageView.frame.size.width / 2;
+    self.avatarImageView.layer.masksToBounds = YES;
 }
 
 @end
