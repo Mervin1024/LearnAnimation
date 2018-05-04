@@ -91,14 +91,14 @@
 		8C999E2E205D2611006D9F85 /* 入口View */ = {
 			isa = PBXGroup;
 			children = (
-				8C999E2F205D2611006D9F85 /* BFELiveKnowledgeDetailedRulesAnimationView.h */,
-				8C999E30205D2611006D9F85 /* BFELiveKnowledgeEntranceDetailedRulesView.m */,
 				8C999E31205D2611006D9F85 /* BFELiveKnowledgeEntranceAvatarView.h */,
-				8C999E32205D2611006D9F85 /* BFELiveKnowledgeEntranceView.m */,
+				8C999E36205D2611006D9F85 /* BFELiveKnowledgeEntranceAvatarView.m */,
+				8C999E2F205D2611006D9F85 /* BFELiveKnowledgeDetailedRulesAnimationView.h */,
 				8C999E33205D2611006D9F85 /* BFELiveKnowledgeDetailedRulesAnimationView.m */,
 				8C999E34205D2611006D9F85 /* BFELiveKnowledgeEntranceDetailedRulesView.h */,
+				8C999E30205D2611006D9F85 /* BFELiveKnowledgeEntranceDetailedRulesView.m */,
 				8C999E35205D2611006D9F85 /* BFELiveKnowledgeEntranceView.h */,
-				8C999E36205D2611006D9F85 /* BFELiveKnowledgeEntranceAvatarView.m */,
+				8C999E32205D2611006D9F85 /* BFELiveKnowledgeEntranceView.m */,
 			);
 			path = "入口View";
 			sourceTree = "<group>";

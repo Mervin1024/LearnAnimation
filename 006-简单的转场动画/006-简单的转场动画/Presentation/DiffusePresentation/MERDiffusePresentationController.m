@@ -1,14 +1,14 @@
 //
-//  MERRegisterGuidePresentationController.m
-//  006-简单的转场动画
+//  MERDiffusePresentationController.m
+//  MERPresentation
 //
-//  Created by 马遥 on 2018/4/20.
+//  Created by 马遥 on 2018/2/5.
 //  Copyright © 2018年 马遥. All rights reserved.
 //
 
-#import "MERRegisterGuidePresentationController.h"
+#import "MERDiffusePresentationController.h"
 
-@implementation MERRegisterGuidePresentationController
+@implementation MERDiffusePresentationController
 
 - (void)presentationTransitionWillBegin {
     id <UIViewControllerTransitionCoordinator> transitionCoordinator = self.presentedViewController.transitionCoordinator;

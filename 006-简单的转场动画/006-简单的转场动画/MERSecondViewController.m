@@ -1,38 +1,80 @@
 //
 //  MERSecondViewController.m
-//  006-简单的转场动画
+//  MERPresentation_Example
 //
-//  Created by 马遥 on 2018/4/20.
+//  Created by 马遥 on 2018/4/19.
 //  Copyright © 2018年 马遥. All rights reserved.
 //
 
 #import "MERSecondViewController.h"
 
-@interface MERSecondViewController ()
-@property (nonatomic, strong) UIButton *registerButton;
+@interface MERSecondViewController () <UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic, strong) UITableView *tableView;
 @end
 
 @implementation MERSecondViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    _tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
+    _tableView.backgroundColor = [UIColor colorWithRed:255/255.0 green:227/255.0 blue:180/255.0 alpha:1];
+    _tableView.dataSource = self;
+    _tableView.delegate = self;
+    [self.view addSubview:_tableView];
     
-    self.view.backgroundColor = [UIColor whiteColor];
-    self.navigationItem.title = @"开始注册";
-    
-    _registerButton = [UIButton buttonWithType:UIButtonTypeSystem];
-    [_registerButton setTitle:@"点击注册" forState:UIControlStateNormal];
-    [_registerButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    [_registerButton setBackgroundColor:[UIColor colorWithRed:255/255.0 green:196/255.0 blue:0/255.0 alpha:1]];
-    _registerButton.titleLabel.font = [UIFont systemFontOfSize:21];
-    [_registerButton sizeToFit];
-    _registerButton.center = self.view.center;
-    [_registerButton addTarget:self action:@selector(registerButtonDidPressed:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:_registerButton];
+    _tableView.translatesAutoresizingMaskIntoConstraints = NO;
+    [self.view addConstraints:@[
+                                [NSLayoutConstraint constraintWithItem:_tableView
+                                                             attribute:NSLayoutAttributeTop
+                                                             relatedBy:NSLayoutRelationEqual
+                                                                toItem:self.view
+                                                             attribute:NSLayoutAttributeTop
+                                                            multiplier:1.0
+                                                              constant:0],
+                                
+                                [NSLayoutConstraint constraintWithItem:_tableView
+                                                             attribute:NSLayoutAttributeLeft
+                                                             relatedBy:NSLayoutRelationEqual
+                                                                toItem:self.view
+                                                             attribute:NSLayoutAttributeLeft
+                                                            multiplier:1.0
+                                                              constant:0],
+                                
+                                [NSLayoutConstraint constraintWithItem:_tableView
+                                                             attribute:NSLayoutAttributeBottom
+                                                             relatedBy:NSLayoutRelationEqual
+                                                                toItem:self.view
+                                                             attribute:NSLayoutAttributeBottom
+                                                            multiplier:1.0
+                                                              constant:-0],
+                                
+                                [NSLayoutConstraint constraintWithItem:_tableView
+                                                             attribute:NSLayoutAttributeRight
+                                                             relatedBy:NSLayoutRelationEqual
+                                                                toItem:self.view
+                                                             attribute:NSLayoutAttributeRight
+                                                            multiplier:1
+                                                              constant:-0],
+                                
+                                ]];
 }
 
-- (void)registerButtonDidPressed:(id)sender {
-    [self.navigationController dismissViewControllerAnimated:YES completion:nil];
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 5;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([self class])];
+    if (!cell) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:NSStringFromClass([self class])];
+        cell.backgroundColor = [UIColor clearColor];
+    }
+    cell.textLabel.text = [NSString stringWithFormat:@"测试 ：%@",@(indexPath.row)];
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end

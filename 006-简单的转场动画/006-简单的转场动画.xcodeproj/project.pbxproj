@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C110C28209C71E50055FB61 /* MERGraduallyFadePresentationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C110C05209C71E50055FB61 /* MERGraduallyFadePresentationManager.m */; };
+		8C110C29209C71E50055FB61 /* MERGraduallyFadePresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C110C06209C71E50055FB61 /* MERGraduallyFadePresentationController.m */; };
+		8C110C2A209C71E50055FB61 /* MERGraduallyFadePresentationAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C110C07209C71E50055FB61 /* MERGraduallyFadePresentationAnimator.m */; };
+		8C110C2B209C71E50055FB61 /* UIViewController+MERPresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C110C0B209C71E50055FB61 /* UIViewController+MERPresentation.m */; };
+		8C110C2C209C71E50055FB61 /* MERPresentationAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C110C10209C71E50055FB61 /* MERPresentationAnimator.m */; };
+		8C110C2D209C71E50055FB61 /* MERPresentationInteractive.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C110C11209C71E50055FB61 /* MERPresentationInteractive.m */; };
+		8C110C2E209C71E50055FB61 /* MERPresentationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C110C12209C71E50055FB61 /* MERPresentationManager.m */; };
+		8C110C2F209C71E50055FB61 /* MERSlidePresentationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C110C16209C71E50055FB61 /* MERSlidePresentationManager.m */; };
+		8C110C30209C71E50055FB61 /* MERSlidePresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C110C18209C71E50055FB61 /* MERSlidePresentationController.m */; };
+		8C110C31209C71E50055FB61 /* MERSlidePresentationAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C110C19209C71E50055FB61 /* MERSlidePresentationAnimator.m */; };
+		8C110C32209C71E50055FB61 /* MERDiffusePresentationAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C110C1E209C71E50055FB61 /* MERDiffusePresentationAnimator.m */; };
+		8C110C33209C71E50055FB61 /* MERRipplesAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C110C20209C71E50055FB61 /* MERRipplesAnimatedView.m */; };
+		8C110C34209C71E50055FB61 /* MERDiffusePresentationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C110C21209C71E50055FB61 /* MERDiffusePresentationManager.m */; };
+		8C110C35209C71E50055FB61 /* MERDiffusePresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C110C23209C71E50055FB61 /* MERDiffusePresentationController.m */; };
+		8C110C36209C71E50055FB61 /* MERSheetPresentationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C110C27209C71E50055FB61 /* MERSheetPresentationManager.m */; };
+		8C110C39209C726E0055FB61 /* MERClickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C110C38209C726E0055FB61 /* MERClickView.m */; };
 		8CBE7B6E2088C0ED00854DE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBE7B6D2088C0ED00854DE4 /* AppDelegate.m */; };
 		8CBE7B712088C0ED00854DE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBE7B702088C0ED00854DE4 /* ViewController.m */; };
 		8CBE7B742088C0ED00854DE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CBE7B722088C0ED00854DE4 /* Main.storyboard */; };
@@ -14,13 +30,43 @@
 		8CBE7B792088C0EE00854DE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CBE7B772088C0EE00854DE4 /* LaunchScreen.storyboard */; };
 		8CBE7B7C2088C0EE00854DE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBE7B7B2088C0EE00854DE4 /* main.m */; };
 		8CBE7B8C2089B91B00854DE4 /* MERSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBE7B8B2089B91B00854DE4 /* MERSecondViewController.m */; };
-		8CBE7B9E2089BE4300854DE4 /* MERRegisterGuidePresentationAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBE7B9B2089BE4300854DE4 /* MERRegisterGuidePresentationAnimator.m */; };
-		8CBE7B9F2089BE4300854DE4 /* MERRegisterGuidePresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBE7B9C2089BE4300854DE4 /* MERRegisterGuidePresentationController.m */; };
-		8CBE7BA32089BE7D00854DE4 /* MERRegisterGuidePresentationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBE7BA22089BE7D00854DE4 /* MERRegisterGuidePresentationManager.m */; };
-		8CBE7BA62089C0F900854DE4 /* UIViewController+BFEPresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBE7BA52089C0F900854DE4 /* UIViewController+BFEPresentation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C110C03209C71E50055FB61 /* MERPresentationHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERPresentationHeader.h; sourceTree = "<group>"; };
+		8C110C05209C71E50055FB61 /* MERGraduallyFadePresentationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERGraduallyFadePresentationManager.m; sourceTree = "<group>"; };
+		8C110C06209C71E50055FB61 /* MERGraduallyFadePresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERGraduallyFadePresentationController.m; sourceTree = "<group>"; };
+		8C110C07209C71E50055FB61 /* MERGraduallyFadePresentationAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERGraduallyFadePresentationAnimator.m; sourceTree = "<group>"; };
+		8C110C08209C71E50055FB61 /* MERGraduallyFadePresentationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERGraduallyFadePresentationManager.h; sourceTree = "<group>"; };
+		8C110C09209C71E50055FB61 /* MERGraduallyFadePresentationAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERGraduallyFadePresentationAnimator.h; sourceTree = "<group>"; };
+		8C110C0A209C71E50055FB61 /* MERGraduallyFadePresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERGraduallyFadePresentationController.h; sourceTree = "<group>"; };
+		8C110C0B209C71E50055FB61 /* UIViewController+MERPresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MERPresentation.m"; sourceTree = "<group>"; };
+		8C110C0D209C71E50055FB61 /* MERPresentationAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERPresentationAnimator.h; sourceTree = "<group>"; };
+		8C110C0E209C71E50055FB61 /* MERPresentationInteractive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERPresentationInteractive.h; sourceTree = "<group>"; };
+		8C110C0F209C71E50055FB61 /* MERPresentationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERPresentationManager.h; sourceTree = "<group>"; };
+		8C110C10209C71E50055FB61 /* MERPresentationAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERPresentationAnimator.m; sourceTree = "<group>"; };
+		8C110C11209C71E50055FB61 /* MERPresentationInteractive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERPresentationInteractive.m; sourceTree = "<group>"; };
+		8C110C12209C71E50055FB61 /* MERPresentationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERPresentationManager.m; sourceTree = "<group>"; };
+		8C110C13209C71E50055FB61 /* MERPresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERPresentation.h; sourceTree = "<group>"; };
+		8C110C15209C71E50055FB61 /* MERSlidePresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERSlidePresentationController.h; sourceTree = "<group>"; };
+		8C110C16209C71E50055FB61 /* MERSlidePresentationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERSlidePresentationManager.m; sourceTree = "<group>"; };
+		8C110C17209C71E50055FB61 /* MERSlidePresentationAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERSlidePresentationAnimator.h; sourceTree = "<group>"; };
+		8C110C18209C71E50055FB61 /* MERSlidePresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERSlidePresentationController.m; sourceTree = "<group>"; };
+		8C110C19209C71E50055FB61 /* MERSlidePresentationAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERSlidePresentationAnimator.m; sourceTree = "<group>"; };
+		8C110C1A209C71E50055FB61 /* MERSlidePresentationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERSlidePresentationManager.h; sourceTree = "<group>"; };
+		8C110C1C209C71E50055FB61 /* MERDiffusePresentationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERDiffusePresentationManager.h; sourceTree = "<group>"; };
+		8C110C1D209C71E50055FB61 /* MERRipplesAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERRipplesAnimatedView.h; sourceTree = "<group>"; };
+		8C110C1E209C71E50055FB61 /* MERDiffusePresentationAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERDiffusePresentationAnimator.m; sourceTree = "<group>"; };
+		8C110C1F209C71E50055FB61 /* MERDiffusePresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERDiffusePresentationController.h; sourceTree = "<group>"; };
+		8C110C20209C71E50055FB61 /* MERRipplesAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERRipplesAnimatedView.m; sourceTree = "<group>"; };
+		8C110C21209C71E50055FB61 /* MERDiffusePresentationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERDiffusePresentationManager.m; sourceTree = "<group>"; };
+		8C110C22209C71E50055FB61 /* MERDiffusePresentationAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERDiffusePresentationAnimator.h; sourceTree = "<group>"; };
+		8C110C23209C71E50055FB61 /* MERDiffusePresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERDiffusePresentationController.m; sourceTree = "<group>"; };
+		8C110C24209C71E50055FB61 /* UIViewController+MERPresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MERPresentation.h"; sourceTree = "<group>"; };
+		8C110C26209C71E50055FB61 /* MERSheetPresentationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERSheetPresentationManager.h; sourceTree = "<group>"; };
+		8C110C27209C71E50055FB61 /* MERSheetPresentationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERSheetPresentationManager.m; sourceTree = "<group>"; };
+		8C110C37209C726E0055FB61 /* MERClickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERClickView.h; sourceTree = "<group>"; };
+		8C110C38209C726E0055FB61 /* MERClickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERClickView.m; sourceTree = "<group>"; };
 		8CBE7B692088C0ED00854DE4 /* 006-简单的转场动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "006-简单的转场动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CBE7B6C2088C0ED00854DE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8CBE7B6D2088C0ED00854DE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -33,14 +79,6 @@
 		8CBE7B7B2088C0EE00854DE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8CBE7B8A2089B91B00854DE4 /* MERSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MERSecondViewController.h; sourceTree = "<group>"; };
 		8CBE7B8B2089B91B00854DE4 /* MERSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MERSecondViewController.m; sourceTree = "<group>"; };
-		8CBE7B982089BE4300854DE4 /* MERRegisterGuidePresentationAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERRegisterGuidePresentationAnimator.h; sourceTree = "<group>"; };
-		8CBE7B992089BE4300854DE4 /* MERRegisterGuidePresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERRegisterGuidePresentationController.h; sourceTree = "<group>"; };
-		8CBE7B9B2089BE4300854DE4 /* MERRegisterGuidePresentationAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERRegisterGuidePresentationAnimator.m; sourceTree = "<group>"; };
-		8CBE7B9C2089BE4300854DE4 /* MERRegisterGuidePresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERRegisterGuidePresentationController.m; sourceTree = "<group>"; };
-		8CBE7BA12089BE7D00854DE4 /* MERRegisterGuidePresentationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MERRegisterGuidePresentationManager.h; sourceTree = "<group>"; };
-		8CBE7BA22089BE7D00854DE4 /* MERRegisterGuidePresentationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MERRegisterGuidePresentationManager.m; sourceTree = "<group>"; };
-		8CBE7BA42089C0F900854DE4 /* UIViewController+BFEPresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BFEPresentation.h"; sourceTree = "<group>"; };
-		8CBE7BA52089C0F900854DE4 /* UIViewController+BFEPresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BFEPresentation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +92,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C110C02209C71E50055FB61 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				8C110C13209C71E50055FB61 /* MERPresentation.h */,
+				8C110C03209C71E50055FB61 /* MERPresentationHeader.h */,
+				8C110C24209C71E50055FB61 /* UIViewController+MERPresentation.h */,
+				8C110C0B209C71E50055FB61 /* UIViewController+MERPresentation.m */,
+				8C110C04209C71E50055FB61 /* GraduallyFadePresentation */,
+				8C110C0C209C71E50055FB61 /* MERPresentation */,
+				8C110C14209C71E50055FB61 /* SlidePresentation */,
+				8C110C1B209C71E50055FB61 /* DiffusePresentation */,
+				8C110C25209C71E50055FB61 /* SheetPresentation */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		8C110C04209C71E50055FB61 /* GraduallyFadePresentation */ = {
+			isa = PBXGroup;
+			children = (
+				8C110C05209C71E50055FB61 /* MERGraduallyFadePresentationManager.m */,
+				8C110C06209C71E50055FB61 /* MERGraduallyFadePresentationController.m */,
+				8C110C07209C71E50055FB61 /* MERGraduallyFadePresentationAnimator.m */,
+				8C110C08209C71E50055FB61 /* MERGraduallyFadePresentationManager.h */,
+				8C110C09209C71E50055FB61 /* MERGraduallyFadePresentationAnimator.h */,
+				8C110C0A209C71E50055FB61 /* MERGraduallyFadePresentationController.h */,
+			);
+			path = GraduallyFadePresentation;
+			sourceTree = "<group>";
+		};
+		8C110C0C209C71E50055FB61 /* MERPresentation */ = {
+			isa = PBXGroup;
+			children = (
+				8C110C0D209C71E50055FB61 /* MERPresentationAnimator.h */,
+				8C110C0E209C71E50055FB61 /* MERPresentationInteractive.h */,
+				8C110C0F209C71E50055FB61 /* MERPresentationManager.h */,
+				8C110C10209C71E50055FB61 /* MERPresentationAnimator.m */,
+				8C110C11209C71E50055FB61 /* MERPresentationInteractive.m */,
+				8C110C12209C71E50055FB61 /* MERPresentationManager.m */,
+			);
+			path = MERPresentation;
+			sourceTree = "<group>";
+		};
+		8C110C14209C71E50055FB61 /* SlidePresentation */ = {
+			isa = PBXGroup;
+			children = (
+				8C110C15209C71E50055FB61 /* MERSlidePresentationController.h */,
+				8C110C16209C71E50055FB61 /* MERSlidePresentationManager.m */,
+				8C110C17209C71E50055FB61 /* MERSlidePresentationAnimator.h */,
+				8C110C18209C71E50055FB61 /* MERSlidePresentationController.m */,
+				8C110C19209C71E50055FB61 /* MERSlidePresentationAnimator.m */,
+				8C110C1A209C71E50055FB61 /* MERSlidePresentationManager.h */,
+			);
+			path = SlidePresentation;
+			sourceTree = "<group>";
+		};
+		8C110C1B209C71E50055FB61 /* DiffusePresentation */ = {
+			isa = PBXGroup;
+			children = (
+				8C110C1C209C71E50055FB61 /* MERDiffusePresentationManager.h */,
+				8C110C1D209C71E50055FB61 /* MERRipplesAnimatedView.h */,
+				8C110C1E209C71E50055FB61 /* MERDiffusePresentationAnimator.m */,
+				8C110C1F209C71E50055FB61 /* MERDiffusePresentationController.h */,
+				8C110C20209C71E50055FB61 /* MERRipplesAnimatedView.m */,
+				8C110C21209C71E50055FB61 /* MERDiffusePresentationManager.m */,
+				8C110C22209C71E50055FB61 /* MERDiffusePresentationAnimator.h */,
+				8C110C23209C71E50055FB61 /* MERDiffusePresentationController.m */,
+			);
+			path = DiffusePresentation;
+			sourceTree = "<group>";
+		};
+		8C110C25209C71E50055FB61 /* SheetPresentation */ = {
+			isa = PBXGroup;
+			children = (
+				8C110C26209C71E50055FB61 /* MERSheetPresentationManager.h */,
+				8C110C27209C71E50055FB61 /* MERSheetPresentationManager.m */,
+			);
+			path = SheetPresentation;
+			sourceTree = "<group>";
+		};
 		8CBE7B602088C0ED00854DE4 = {
 			isa = PBXGroup;
 			children = (
@@ -73,13 +190,15 @@
 		8CBE7B6B2088C0ED00854DE4 /* 006-简单的转场动画 */ = {
 			isa = PBXGroup;
 			children = (
-				8CBE7B972089BE4300854DE4 /* Presentation */,
+				8C110C02209C71E50055FB61 /* Presentation */,
 				8CBE7B6C2088C0ED00854DE4 /* AppDelegate.h */,
 				8CBE7B6D2088C0ED00854DE4 /* AppDelegate.m */,
 				8CBE7B6F2088C0ED00854DE4 /* ViewController.h */,
 				8CBE7B702088C0ED00854DE4 /* ViewController.m */,
 				8CBE7B8A2089B91B00854DE4 /* MERSecondViewController.h */,
 				8CBE7B8B2089B91B00854DE4 /* MERSecondViewController.m */,
+				8C110C37209C726E0055FB61 /* MERClickView.h */,
+				8C110C38209C726E0055FB61 /* MERClickView.m */,
 				8CBE7B722088C0ED00854DE4 /* Main.storyboard */,
 				8CBE7B752088C0EE00854DE4 /* Assets.xcassets */,
 				8CBE7B772088C0EE00854DE4 /* LaunchScreen.storyboard */,
@@ -87,21 +206,6 @@
 				8CBE7B7B2088C0EE00854DE4 /* main.m */,
 			);
 			path = "006-简单的转场动画";
-			sourceTree = "<group>";
-		};
-		8CBE7B972089BE4300854DE4 /* Presentation */ = {
-			isa = PBXGroup;
-			children = (
-				8CBE7BA42089C0F900854DE4 /* UIViewController+BFEPresentation.h */,
-				8CBE7BA52089C0F900854DE4 /* UIViewController+BFEPresentation.m */,
-				8CBE7BA12089BE7D00854DE4 /* MERRegisterGuidePresentationManager.h */,
-				8CBE7BA22089BE7D00854DE4 /* MERRegisterGuidePresentationManager.m */,
-				8CBE7B982089BE4300854DE4 /* MERRegisterGuidePresentationAnimator.h */,
-				8CBE7B9B2089BE4300854DE4 /* MERRegisterGuidePresentationAnimator.m */,
-				8CBE7B992089BE4300854DE4 /* MERRegisterGuidePresentationController.h */,
-				8CBE7B9C2089BE4300854DE4 /* MERRegisterGuidePresentationController.m */,
-			);
-			path = Presentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,14 +279,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C110C32209C71E50055FB61 /* MERDiffusePresentationAnimator.m in Sources */,
+				8C110C28209C71E50055FB61 /* MERGraduallyFadePresentationManager.m in Sources */,
+				8C110C2D209C71E50055FB61 /* MERPresentationInteractive.m in Sources */,
+				8C110C34209C71E50055FB61 /* MERDiffusePresentationManager.m in Sources */,
+				8C110C2B209C71E50055FB61 /* UIViewController+MERPresentation.m in Sources */,
+				8C110C36209C71E50055FB61 /* MERSheetPresentationManager.m in Sources */,
+				8C110C35209C71E50055FB61 /* MERDiffusePresentationController.m in Sources */,
+				8C110C33209C71E50055FB61 /* MERRipplesAnimatedView.m in Sources */,
 				8CBE7B712088C0ED00854DE4 /* ViewController.m in Sources */,
-				8CBE7B9E2089BE4300854DE4 /* MERRegisterGuidePresentationAnimator.m in Sources */,
-				8CBE7B9F2089BE4300854DE4 /* MERRegisterGuidePresentationController.m in Sources */,
-				8CBE7BA32089BE7D00854DE4 /* MERRegisterGuidePresentationManager.m in Sources */,
+				8C110C2A209C71E50055FB61 /* MERGraduallyFadePresentationAnimator.m in Sources */,
+				8C110C39209C726E0055FB61 /* MERClickView.m in Sources */,
+				8C110C29209C71E50055FB61 /* MERGraduallyFadePresentationController.m in Sources */,
+				8C110C2E209C71E50055FB61 /* MERPresentationManager.m in Sources */,
+				8C110C30209C71E50055FB61 /* MERSlidePresentationController.m in Sources */,
 				8CBE7B7C2088C0EE00854DE4 /* main.m in Sources */,
+				8C110C2F209C71E50055FB61 /* MERSlidePresentationManager.m in Sources */,
 				8CBE7B6E2088C0ED00854DE4 /* AppDelegate.m in Sources */,
-				8CBE7BA62089C0F900854DE4 /* UIViewController+BFEPresentation.m in Sources */,
+				8C110C2C209C71E50055FB61 /* MERPresentationAnimator.m in Sources */,
 				8CBE7B8C2089B91B00854DE4 /* MERSecondViewController.m in Sources */,
+				8C110C31209C71E50055FB61 /* MERSlidePresentationAnimator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
